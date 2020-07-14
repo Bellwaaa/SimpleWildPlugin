@@ -1,0 +1,16 @@
+name: Wild
+main:  NotBellwa\Wild\Main
+version: 0.1.0
+api: 3.14.1
+description: "A Basic Warp plugin"
+author: "NotBellwa"
+commands:
+  wild:
+    description: "A simple wild command"
+    permission: "wild.command"
+permissions:
+  wild:
+    default: op
+    children:
+      wild.command:
+        default: true
